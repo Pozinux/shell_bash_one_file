@@ -5,8 +5,7 @@
 # Pour récupérer les packages depuis une VM Linux Online (avec connexion Internet) :
 #
 #   1. Récupérer ce script et le déposer sur une VM Linux Online (avec connexion Internet) qui possède la même version de python que celle installée 
-#       sur la machine cible Offline (sans connexion Internet)
-#       Sans ça, les packages et dépendences récupérés ne seront pas pas forcément les bons.
+#       sur la machine cible Offline (sans connexion Internet). Sans ça, les packages et dépendences récupérés ne seront pas pas forcément les bons.
 #       Exemple :
 #       Si la machine cible Offline est en python 3.6.8 alors la machine source Online devra être aussi en python 3.6.8
 #
