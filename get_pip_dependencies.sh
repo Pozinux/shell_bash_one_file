@@ -4,7 +4,8 @@
 #
 # Pour récupérer les packages depuis une VM Linux Online (avec connexion Internet) :
 #
-#   1. Récupérer ce script et le déposer sur une VM Linux Online (avec connexion Internet) qui possède la même version de python que celle installée sur la machine cible Offline (sans connexion Internet)
+#   1. Récupérer ce script et le déposer sur une VM Linux Online (avec connexion Internet) qui possède la même version de python que celle installée 
+#       sur la machine cible Offline (sans connexion Internet)
 #       Sans ça, les packages et dépendences récupérés ne seront pas pas forcément les bons.
 #       Exemple :
 #       Si la machine cible Offline est en python 3.6.8 alors la machine source Online devra être aussi en python 3.6.8
@@ -18,7 +19,8 @@
 #
 #   4. Déposer le package et ses dépendences sur la VM Offline dans un répertoire de son choix <CHEMIN_ABSOLU_POUR_INSTALLER_LES PACKAGES>
 #
-#   5. Exécuter le script sur la VM Offline pour installer le package et ses dépendences à partir de ce répertoire <CHEMIN_ABSOLU_POUR_INSTALLER_LES PACKAGES> :
+#   5. Exécuter le script sur la VM Offline pour installer le package et ses dépendences à partir de 
+#       ce répertoire <CHEMIN_ABSOLU_POUR_INSTALLER_LES PACKAGES> :
 #       ./get_pip_dependencies.sh --install -p "<CHEMIN_ABSOLU_POUR_INSTALLER_LES PACKAGES>" --venv-alias <NOM_VIRTUAL_ENVIRONMENT> --venv-user <NOM_UTILISATEUR> -n <NOM_DU_PACKAGE_A_RECUPERER>
 #       Exemple :
 #       ./get_pip_dependencies.sh --install -p "/home/toto/packages/" --venv-alias ans2.10 --venv-user toto -n pykeepass
